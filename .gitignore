@@ -27,7 +27,7 @@ node_modules
 # directory for typescript typings
 # add tyoing using tsd install
 # https://github.com/DefinitelyTyped/tsd
-#tsd_typings
+tsd_typings
 .tsdrc
 
 
