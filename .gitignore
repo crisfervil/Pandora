@@ -24,6 +24,11 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
+# https://github.com/DefinitelyTyped/tsd
+tsd_typings
+.tsdrc
+
+
 # Users Environment Variables
 .lock-wscript
 
@@ -32,3 +37,5 @@ dev
 lib
 test
 tmp
+
+

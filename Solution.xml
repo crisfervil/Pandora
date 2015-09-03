@@ -9,14 +9,14 @@
     <Version>1.0.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>CODEC</UniqueName>
+      <UniqueName>Cristhian</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="CODEC" languagecode="1033" />
+        <LocalizedName description="Cristhian" languagecode="1033" />
       </LocalizedNames>
       <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>CODEC</CustomizationPrefix>
+      <CustomizationPrefix>Cristhian</CustomizationPrefix>
       <CustomizationOptionValuePrefix>95321</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
