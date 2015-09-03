@@ -13,7 +13,7 @@ import {AccountDefaultView} from './components/entities/account/accountDefaultVi
 
 @Component({
   selector: 'app',
-  bindings: [/*Router,*/ Location, Xrm]
+  bindings: [/*Router,*/ Location/*, Xrm*/]
 })
 @RouteConfig([
   { path: '/', component: Home, as: 'home' },
