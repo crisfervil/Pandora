@@ -1,0 +1,117 @@
+<div class="container-fluid">
+  <div class="row row-offcanvas row-offcanvas-left">
+    <!-- sidebar -->
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 sidebar-offcanvas" id="sidebar" role="navigation">
+      <ul class="nav">
+        <li class="active">
+          <a href="#">Overview</a>
+        </li>
+        <li>
+          <a href="#">My Pending work</a>
+        </li>
+        <li>
+          <a href="#">My team work</a>
+        </li>
+        <li>
+          <a href="#">Company Dashboard</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#">Edit...</a>
+        </li>
+        <li>
+          <a href="#">New...</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
+      <!-- content -->
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="page-header">
+            <h1>Overview
+            <small>This is what you have todo today</small>
+          </h1>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">How many cases did I close yesterday?</div>
+            <div class="panel-body">
+              <canvas class="center-block" id="closedCases" width="200" height="200"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-6">
+          <!-- USERS LIST -->
+          <div class="box box-danger">
+            <div class="box-header with-border">
+              <h3 class="box-title">My Contacts</h3>
+              <div class="box-tools pull-right">
+                <span class="label label-danger">8 New Contacts</span>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <ul class="users-list clearfix">
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Alexander Pierce</a>
+                  <span class="users-list-date">Today</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Norman</a>
+                  <span class="users-list-date">Yesterday</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Jane</a>
+                  <span class="users-list-date">12 Jan</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">John</a>
+                  <span class="users-list-date">12 Jan</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Alexander</a>
+                  <span class="users-list-date">13 Jan</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Sarah</a>
+                  <span class="users-list-date">14 Jan</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Nora</a>
+                  <span class="users-list-date">15 Jan</span>
+                </li>
+                <li>
+                  <i class="fa fa-user fa-5x" alt="User Image"></i>
+                  <a class="users-list-name" href="#">Nadia</a>
+                  <span class="users-list-date">15 Jan</span>
+                </li>
+              </ul>
+              <!-- /.users-list -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer text-center">
+              <a href="javascript::" class="uppercase">View All Users</a>
+            </div>
+            <!-- /.box-footer -->
+          </div>
+          <!--/.box -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p>Click <a [router-link]="['/about']">here</a>
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

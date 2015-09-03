@@ -1,0 +1,21 @@
+{
+    "version": "1.5.3",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "./app/*.ts",
+        "./app/**/*.ts",
+        "./tsd_typings/*.ts",
+        "./tsd_typings/**/*.ts"
+    ],
+    "compileOnSave": false
+}
