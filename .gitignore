@@ -24,6 +24,8 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
+# directory for typescript typings
+# add tyoing using tsd install
 # https://github.com/DefinitelyTyped/tsd
 tsd_typings
 .tsdrc
